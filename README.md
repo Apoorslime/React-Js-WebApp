@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Guida introduttiva alla creazione di una React-App su Termux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Questo progetto è stato avviato con [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Script disponibili
 
-In the project directory, you can run:
+Nella directory del progetto `my-app`, puoi eseguire:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Esegue l'app in modalità sviluppo.\
+Apri [http://localhost:3000](http://localhost:3000) per visualizzarlo nel tuo browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Appena eseguirai `npm start` Termux potrebbe già proporti di aprire un browser
 
+
+La pagina si ricaricherà quando apporti modifiche.\
+Potresti anche vedere eventuali errori di lanugine nella console.
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Avvia il test runner nella modalità orologio interattivo.\
+Per ulteriori informazioni, vedere la sezione sui [test di esecuzione](https://facebook.github.io/create-react-app/docs/running-tests).
+
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Crea l'app per la produzione nella cartella `build`.\
+ Raggruppa correttamente React in modalità produzione e ottimizza la build per le migliori prestazioni.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ La build viene minimizzata e i nomi dei file includono gli hash.\
+ La tua app è pronta per essere distribuita!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+Vedi la sezione su [deployment](https://facebook.github.io/create-react-app/docs/deployment) per maggiori informazioni.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Nota: questa è un'operazione a senso unico.  Una volta "espulso", non puoi tornare indietro!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ Se non sei soddisfatto dello strumento di compilazione e delle scelte di configurazione, puoi 'espellere' in qualsiasi momento.  Questo comando rimuoverà la singola dipendenza di build dal tuo progetto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ Invece, copierà tutti i file di configurazione e le dipendenze transitive (webpack, Babel, ESLint, ecc.) direttamente nel tuo progetto in modo da avere il pieno controllo su di essi.  Tutti i comandi tranne "espelli" continueranno a funzionare, ma punteranno agli script copiati in modo da poterli modificare.  A questo punto sei da solo.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ Non devi mai usare `eject`.  Il set di funzionalità curato è adatto per distribuzioni di piccole e medie dimensioni e non dovresti sentirti obbligato a utilizzare questa funzionalità.  Tuttavia, comprendiamo che questo strumento non sarebbe utile se non potessi personalizzarlo quando sei pronto per questo.
 
-## Learn More
+## Boostrap Deprecato
+a tutti gli sviluppatori che utilizzano boostrap all'interno di ReactJs, Questo pacchetto è stato Deprecato a causa di vulnerabilità con npm, il pacchetto è stato ritirato.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**package.json**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```json
+{
+  "name": "boostrap",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/deprecate-holder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npm/deprecate-holder/issues"
+  },
+  "homepage": "https://github.com/npm/deprecate-holder#readme",
+  "dependencies": {}
+}
+```
 
-### Code Splitting
+Per impostare boostrap nell'app ReactJs, installa il package React-Boostrap
+`npm install react-bootstrap bootstrap`
+e importa boostrap all'interno di [App.js](src/App.js), inserisci nella prima riga
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```js
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
