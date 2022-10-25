@@ -97,7 +97,7 @@ Modifica il file **package.json**
 Modifica la stringa
 
 ```json
-"start": "PORT=2000 react-scripts start",
+"start": "react-scripts start",
 ```
 
 
