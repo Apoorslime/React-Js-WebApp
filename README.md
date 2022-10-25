@@ -122,7 +122,7 @@ Per impostare boostrap nell'app React-Js, installa il package React-Boostrap
 npm install react-bootstrap bootstrap
 ```
 
-poi importa react-boostrap all'interno di [App.js](src/App.js), inserisci nella prima riga
+poi importa react-boostrap all'interno di [App.js](src/App.js), inseriscilo nella prima riga di codice
 
 ```js
 import 'bootstrap/dist/css/bootstrap.min.css';
