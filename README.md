@@ -50,7 +50,7 @@ Inizierà a installare le dipendenze e creerà una nuova cartella "my-app" nello
 ## Come cambiare porta LocalHost ReactJs
 per cambiare la porta, recati nella cartella `my-app`
 
-Modifica il file *package.json*
+Modifica il file **package.json**
 
 ```json
 {
@@ -93,6 +93,30 @@ Modifica il file *package.json*
   }
 }
 ```
+
+Modifica la stringa
+
+```json
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test --env=jsdom",
+  "eject": "react-scripts eject"
+}
+```
+
+All'inizio inserisci `PORT=2000`
+
+```json
+"scripts": {
+  "start": "PORT=2000 react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test --env=jsdom",
+  "eject": "react-scripts eject"
+}
+```
+
+la porta può essere cambiata in qualsiasi numero da
 
 ## Script disponibili
 
