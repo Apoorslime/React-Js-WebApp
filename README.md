@@ -2,6 +2,51 @@
 
 Questo progetto è stato avviato con [Create React App](https://github.com/facebook/create-react-app).
 
+## Installazione di React-Js su Termux
+
+Aggiorna tutti i pacchetti e le dipendenze installati sul sistema con questo comando.
+
+```
+apt update && apt upgrade
+```
+
+Ora installeremo node-js con questo comando
+
+```
+pkg install nodejs
+```
+
+Questo installerà sia node-js che npm.
+
+Puoi testare l'installazione di nodejs controllando la versione di nodejs e npm con i seguenti comandi
+
+```
+node -v
+```
+Per controllare la versione npm, digitare
+
+```
+npm -v
+```
+
+Dopo aver installato correttamente node-js, esegui il comando seguente per installare react
+
+```
+npm i -g create-react-app
+```
+
+ora Creeremo un'app di reazione qui, Nello ```storage```.
+
+Per fare ciò digita il comando qui sotto e premi invio
+
+```
+npx create-react-app my-app
+```
+
+Ho chiamato questo progetto come `my-app`, puoi nominare il tuo progetto in qualsiasi cosa.
+
+Inizierà a installare le dipendenze e creerà una nuova cartella "my-app" nello storage.
+
 ## Script disponibili
 
 Nella directory del progetto `my-app`, puoi eseguire:
