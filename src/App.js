@@ -1,3 +1,4 @@
+// importa il modulo React-Boostrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './react.gif';
 import './App.css';
