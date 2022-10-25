@@ -35,9 +35,9 @@ Dopo aver installato correttamente node-js, esegui il comando seguente per insta
 npm i -g create-react-app
 ```
 
-ora Creeremo un'app di reazione qui, Nello ```storage```.
+ora Creeremo un'app di reazione Nello ```storage```.
 
-Per fare ciò digita il comando qui sotto e premi invio
+Per fare ciò digita il comando qui sotto e premi invio, assicurati di essere nello storage
 
 ```
 npx create-react-app my-app
