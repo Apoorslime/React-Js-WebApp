@@ -113,7 +113,7 @@ All'inizio inserisci `PORT=2000`
 }
 ```
 
-la porta può essere cambiata in qualsiasi numero da
+la porta può essere cambiata in qualsiasi numero tipo `5000` o `4000` etc
 
 ## Script disponibili
 
