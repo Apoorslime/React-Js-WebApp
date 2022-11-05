@@ -157,7 +157,7 @@ Vedi la sezione su [deployment](https://facebook.github.io/create-react-app/docs
  Non devi mai usare `eject`.  Il set di funzionalità curato è adatto per distribuzioni di piccole e medie dimensioni e non dovresti sentirti obbligato a utilizzare questa funzionalità.  Tuttavia, comprendiamo che questo strumento non sarebbe utile se non potessi personalizzarlo quando sei pronto per questo.
 
 ## Boostrap Deprecato
-**NOTA: a tutti gli sviluppatori che utilizzano boostrap all'interno di ReactJs, Questo pacchetto è stato Deprecato a causa di vulnerabilità con npm, il pacchetto è stato ritirato.
+> **Warning** : **a tutti gli sviluppatori che utilizzano boostrap all'interno di ReactJs, Questo pacchetto è stato Deprecato a causa di vulnerabilità con npm, il pacchetto è stato ritirato.**
 
 **package.json**
 
